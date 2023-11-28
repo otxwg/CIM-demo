@@ -1,0 +1,53 @@
+.icon-3dView {
+  background: url(./menu/3dView.png) no-repeat;
+  background-size: 100%;
+}
+.icon-generalAnalysis {
+  background: url(./menu/generalAnalysis.png) no-repeat;
+  background-size: 100%;
+}
+.icon-layerRender {
+  background: url(./menu/layerRender.png) no-repeat;
+  background-size: 100%;
+}
+.icon-basicFunction {
+  background: url(./menu/basicFunction.png) no-repeat;
+  background-size: 100%;
+}
+.icon-statisticAnalysis {
+  background: url(./menu/statisticAnalysis.png) no-repeat;
+  background-size: 100%;
+}
+.icon-mockShow {
+  background: url(./menu/mockShow.png) no-repeat;
+  background-size: 100%;
+}
+.icon-bimManage {
+  background: url(./menu/bimManage.png) no-repeat;
+  background-size: 100%;
+}
+/* 数据展示 */
+.icon-dataDisplay {
+  background: url(./menu/dataDisplay.png) no-repeat;
+  background-size: 100%;
+}
+/* 场景浏览 */
+.icon-sceneBrowse {
+  background: url(./menu/sceneBrowse.png) no-repeat;
+  background-size: 100%;
+}
+/* 三维空间分析 */
+.icon-spatialAnalysis {
+  background: url(./menu/spatialAnalysis.png) no-repeat;
+  background-size: 100%;
+}
+/* 场景分析 */
+.icon-sceneAnalysis {
+  background: url(./menu/sceneAnalysis.png) no-repeat;
+  background-size: 100%;
+}
+/* 搜索定位 */
+.icon-searchPosition {
+  background: url(./menu/searchPosition.png) no-repeat;
+  background-size: 100%;
+}

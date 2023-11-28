@@ -1,0 +1,194 @@
+.vscroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.vscroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.h4 {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-left: 4px solid #366b9c;
+  text-indent: 8px;
+  text-align: left;
+}
+body {
+  overflow: hidden;
+}
+body p {
+  margin: 0;
+}
+.ant-modal-root {
+  .ant-modal-content {
+    background-color: rgba(1, 10, 23, 0.8);
+  }
+  .ant-modal-header {
+    background-color: rgba(1, 10, 23, 0.8);
+    color: #ffffff;
+    .ant-modal-title {
+      color: #ffffff;
+    }
+  }
+  .ant-modal-body {
+    .ant-form-item-label > label {
+      color: #ffffff;
+    }
+  }
+  .analysis-modal {
+    .ant-modal-body {
+      padding: 18px;
+    }
+  }
+}
+.weather-page .ant-radio-wrapper {
+  color: #ffffff;
+}
+.el-button--small {
+  font-size: 14px;
+}
+// 左侧展开页标题
+// <el-col :span="24" class="title">
+//     <i class="decoration"></i>
+//     <h5>绘制观察点和景点</h5>
+// </el-col>
+.title {
+  margin: 14px 5px 10px 0;
+  margin-bottom: 16px !important;
+  display: block;
+  width: 100%;
+  .decoration {
+    display: inline-block;
+    width: 6px;
+    height: 16px;
+    background: #1f81f2;
+    vertical-align: text-bottom;
+    border-radius: 2px;
+  }
+  h5 {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 5px;
+    color: #ffffff;
+  }
+}
+.ant-col button:first-child {
+  margin-left: 10px;
+}
+.el-button--small {
+  font-size: 14px !important;
+}
+.el-radio__label {
+  // color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+.el-popover {
+  color: #ffffff !important;
+  background: rgba(1, 10, 23, 0.8) !important;
+  border: 0 !important;
+  .el-popover__title {
+    color: #fff;
+  }
+  .popper__arrow {
+    border-left-color: rgba(1, 10, 23, 0.8) !important;
+  }
+  .popper__arrow::after {
+    border-left-color: rgba(1, 10, 23, 0.8) !important;
+  }
+}
+.el-popper[x-placement^='right'] .popper__arrow::after {
+  border-left-color: rgba(1, 10, 23, 0.8) !important;
+}
+.el-popper[x-placement^='right'] .popper__arrow {
+  border-right-color: rgba(1, 10, 23, 0.8) !important;
+}
+/*清除按钮*/
+.clearcss {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0) !important;
+}
+.clearcss.el-button.is-plain:focus,
+.clearcss.el-button.is-plain:hover {
+  background: none !important;
+}
+
+.el-message {
+  margin-top: 60px;
+}
+// iconfont引用symbol
+.icon {
+  width: 1em;
+  height: 1em;
+  font-size: 16px;
+  fill: currentColor;
+  overflow: hidden;
+  vertical-align: -0.15em;
+}
+// 工具栏-属性选择-tooltip样式
+.attr-tooltip .attr-content {
+  margin-bottom: 4px;
+}
+// md说明样式
+.markdown-body {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #fff;
+  padding: 0 16px;
+  body {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    h1 {
+      color: #13d7a9;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(30px);
+      border-radius: 4px;
+      padding: 0 20px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 16px;
+      margin: 16px 0;
+    }
+    p {
+      color: #fff;
+      font-size: 12px;
+      padding: 0 18px;
+    }
+    ol {
+      padding-left: 36px;
+      padding-right: 18px;
+      font-size: 12px;
+      li {
+        padding-top: 16px;
+      }
+    }
+    table {
+      width: 100%;
+      font-size: 12px;
+      tr {
+        th:first-child {
+          text-align: right;
+        }
+        th:last-child {
+          padding-left: 40px;
+          text-align: left;
+        }
+        td:first-child {
+          text-align: right;
+        }
+        td:last-child {
+          padding-left: 40px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

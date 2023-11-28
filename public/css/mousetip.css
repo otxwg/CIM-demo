@@ -1,0 +1,48 @@
+/*--------mouseTip----------------*/
+.cesium-mouse-tip {
+  display: block;
+  position: absolute;
+  visibility: visible;
+  max-width: 300px;
+  min-width: 100px;
+  padding: 5px;
+  font-size: 11px;
+  z-index: 1000;
+  opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  pointer-events: none;
+}
+.cesium-mouse-tip.left .cesium-mouse-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+}
+.cesium-mouse-tip.right .cesium-mouse-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+}
+.cesium-mouse-inner {
+  max-width: 300px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #62DDFF;
+  border-radius: 2px;
+  background: rgba(13, 25, 42, 0.8);
+  text-decoration: none;
+}
+.cesium-mouse-arrow{
+  position: absolute;
+  width: 0;
+  height: 0;
+}
